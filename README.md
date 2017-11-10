@@ -20,7 +20,7 @@ The API endpoint we need to retrieve all the students is the conventional RESTfu
 
 ### Styling
 
-Bootstrap is loaded into this project via a link tag in the head of the html. Generally, do not worry about styling in this application.
+[Bootstrap](https://getbootstrap.com/docs/3.3/components/#list-group) is loaded into this project via a link tag in the head of the html. Generally, do not worry about styling in this application.
 
 Though one important point is that for the student names to show up correctly the html should have the following class names:
 
