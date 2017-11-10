@@ -1,0 +1,109 @@
+{
+  "students":[
+    {
+      "id":1,
+      "name":"Ariel",
+      "languages":"HTML, JS, Ruby, Rails, Scala"
+    },
+    {
+      "id":2,
+      "name":"Ashlee",
+      "languages":"Rails, SASS, LESS, XML, Python, Scala"
+    },
+    {
+      "id":3,
+      "name":"Brooke A.",
+      "languages":"HTML, JS, Python, Scala"
+    },
+    {
+      "id":4,
+      "name":"Elbin",
+      "languages":"Ruby, Rails, SASS, LESS, XML, Python"
+    },
+    {
+      "id":5,
+      "name":"Diego",
+      "languages":"JS, Ruby, Rails, SASS, XML, Python, Scala"
+    },
+    {
+      "id":6,
+      "name":"Dylan",
+      "languages":"HTML, JS, Ruby, Rails, SASS, LESS, XML, Python, Scala"
+    },
+    {
+      "id":7,
+      "name":"Gene",
+      "languages":"HTML, JS, Ruby, XML, Python, Scala"
+    },
+    {
+      "id":8,
+      "name":"Joshua",
+      "languages":"HTML, JS, Ruby, Rails"
+    },
+    {
+      "id":9,
+      "name":"Justin",
+      "languages":"HTML, JS, LESS, XML, Python, Scala"
+    },
+    {
+      "id":10,
+      "name":"Kenneth",
+      "languages":"HTML, JS, SASS, LESS, XML, Python, Scala"
+    },
+    {
+      "id":11,
+      "name":"Kyle",
+      "languages":"HTML, JS, Ruby, Python, Scala"
+    },
+    {
+      "id":12,
+      "name":"Laura",
+      "languages":"HTML, Rails, SASS, LESS, XML, Python, Scala"
+    },
+    {
+      "id":13,
+      "name":"Matt",
+      "languages":"HTML, JS, Ruby, XML, Python, Scala"
+    },
+    {
+      "id":14,
+      "name":"Nicholas P",
+      "languages":"HTML, JS, Ruby, LESS, XML, Python, Scala"
+    },
+    {
+      "id":15,
+      "name":"Nick H",
+      "languages":"HTML, JS, Ruby, Rails"
+    },
+    {
+      "id":16,
+      "name":"Ramy",
+      "languages":"HTML, JS, Ruby, Rails, SASS, Python, Scala"
+    },
+    {
+      "id":17,
+      "name":"Rebecca",
+      "languages":"JS, Ruby, Rails, LESS, XML, Python, Scala"
+    },
+    {
+      "id":18,
+      "name":"Robert",
+      "languages":"Rails, SASS, LESS, XML, Python, Scala"
+    },
+    {
+      "id":19,
+      "name":"Tim",
+      "languages":"Rails, SASS, XML, Python, Scala"
+    },
+    {
+      "id":20,
+      "name":"Todd",
+      "languages":"Rails, SASS, XML, Python, Scala"
+    },
+    {
+      "id":21,
+      "name":"Vijay",
+      "languages":"LESS, XML, Python, Scala"
+    }
+  ]
+}
