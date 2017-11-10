@@ -20,16 +20,26 @@ The API endpoint we need to retrieve all the students is the conventional RESTfu
 
 ### Styling
 
-[Bootstrap](https://getbootstrap.com/docs/3.3/components/#list-group) is loaded into this project via a link tag in the head of the html. Generally, do not worry about styling in this application.
+[Semantic Ui](https://semantic-ui.com/elements/list.html) is loaded into this project via a `link` tag in the `head` of the html. Generally, do not worry about styling in this application.
 
 Though one important point is that for the student names to show up correctly the html should have the following class names:
 
 ```html
-<ul class="list-group">
-  <li class="list-group-item">Student 1</li>
-  <li class="list-group-item">Student 2</li>
-  /* etc... */
-</ul>
+<div class="ui list">
+  <div class="item">
+    <div class="content">
+      <a class="header">Student 1</a>
+      <div class="description">Ruby, JavaScript, CSS</div>
+    </div>
+  </div>
+  <div class="item">
+    <div class="content">
+      <a class="header">Student 2</a>
+      <div class="description">Ruby, JavaScript, CSS</div>
+    </div>
+  </div>
+  /* ... more students */  
+</div>
 ```
 TODO: anything else here?
 
