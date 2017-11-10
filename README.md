@@ -4,15 +4,15 @@
 
 ### The API
 
-Instead of actually accessing the data from a remote API, this challenge uses a package called json-server to create an fake API for development and testing.
+Instead of actually accessing the data from a remote API, this challenge uses a package called `json-server` to create an fake API for development and testing.
 
 It is very easy to set-up.
 
-1 - Run the command npm install -g json-server in the command line from this directory
+1 - Run the command `npm install -g json-server` in the command line from this directory
 
-2 - Run json-server --watch db.json
+2 - Run `json-server --watch db.json`
 
-That's it. You will have a server running on localhost:3000 that serves the JSON data contained in the db.json file.
+That's it. You will have a server running on localhost:3000 that serves the JSON data contained in the `db.json` file.
 
 Troubleshooting: If this fails, be sure you don't already have something running on port 3000
 
