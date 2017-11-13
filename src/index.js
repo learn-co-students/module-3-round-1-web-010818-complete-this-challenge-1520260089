@@ -1,0 +1,1 @@
+const theatreId = 1;
