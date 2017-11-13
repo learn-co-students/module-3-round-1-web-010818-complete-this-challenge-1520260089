@@ -25,7 +25,7 @@ There are two API endpoints you will use, one to fetch all of the data associate
 
 **Before you do anything else, change the variable `theatreId` in your index.js file to your assigned id.**
 
-Use your assigned id to get the data all of the showings at your theatre.
+Use your assigned id to get the data for all of the showings at your theatre.
 
 GET `https://evening-plateau-54365.herokuapp.com/theatres/:id`
 
