@@ -168,7 +168,7 @@ Required Headers
 }
 
 Required Keys
-(in body of request - must be stringified)
+
 {
   showing_id: <add showing_id here>
 }
