@@ -37,30 +37,26 @@ function renderMovies(showings) {
     buyBtn.setAttribute('data-remaining', remainingTix);
     if (remainingTix > 0) {
       buyBtn.innerText = 'Buy Ticket';
-      buyBtn.setAttribute("class", "ui primary button");
+      buyBtn.setAttribute('class', 'ui primary button');
     } else {
       buyBtn.innerText = 'Sold Out';
-      buyBtn.setAttribute("class", "ui button");
+      buyBtn.setAttribute('class', 'ui button');
       buyBtn.disabled = true;
     }
     ul.appendChild(buyBtn);
   });
   showingsContainer.appendChild(ul);
-  buyTixListeners();
+  addBtnListeners();
 }
 
-function buyTixListeners() {
-  showingsContainer.addEventListener('click', (e) => {
-    if(e.target.tagName === 'BUTTON') {
-      let remaining = parseInt(e.target.dataset.remaining);
-      if (remaining > 0) {
-        let showingId = parseInt(e.target.dataset.id);
-        persistNewTicket(showingId);
-      } else {
-        alert ('sold out');
-      }
-    }
-  });
+function addBtnListeners() {
+  let btns = document.getElementsByClassName('ui primary button');
+  for (let i = 0; i < btns.length; i++) {
+    btns[i].addEventListener('click', (e) => {
+      let showingId = parseInt(e.target.dataset.id);
+      persistNewTicket(showingId);
+    });
+  }
 }
 
 function persistNewTicket(showingId) {
