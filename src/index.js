@@ -66,10 +66,9 @@ document.addEventListener('DOMContentLoaded', function(){
       uiLabel.setAttribute("class", "ui label")
       uiLabel.innerText = showings[i].showtime
 
+      description.appendChild(uiLabel)
 
       if(calcRemainTick(showings[i].capacity, showings[i].tickets_sold) === 0){
-
-        description.appendChild(uiLabel)
         description.innerText += `${calcRemainTick(showings[i].capacity, showings[i].tickets_sold)} remaining tickets`
 
         content.appendChild(description)
@@ -81,8 +80,6 @@ document.addEventListener('DOMContentLoaded', function(){
         card.appendChild(extra)
 
       } else {
-
-        description.appendChild(uiLabel)
         description.innerText += `${calcRemainTick(showings[i].capacity, showings[i].tickets_sold)} remaining tickets`
 
         content.appendChild(description)
@@ -97,16 +94,11 @@ document.addEventListener('DOMContentLoaded', function(){
         button.addEventListener("click", (event)=>{
           postDB(showings[i].id)
         })
-
         extra.appendChild(button)
-
         card.appendChild(extra)
       }
-
-
       page.appendChild(card)
     }
-
   }
 
 
