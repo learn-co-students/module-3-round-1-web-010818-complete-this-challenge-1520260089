@@ -227,4 +227,3 @@ The cards that represent a movie showing should be appended to the div with the 
 
 You are free to solve this in any way you choose. It is not required that you have ES6 classes or use Object Orientation. We would recommend beginning with a straightforward functional implementation and refactoring to objects as needed.
 
-jQuery is included in this project, you can choose to use jQuery or vanilla JS.
